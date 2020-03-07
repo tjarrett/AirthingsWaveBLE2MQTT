@@ -12,6 +12,8 @@ noble.on('stateChange', function(state) {
     }
 });
 
+//https://github.com/noble/noble/wiki/Getting-started
+
 noble.on('discover', function(peripheral) {
 /*    console.log('Found device with local name: ' + peripheral.advertisement.localName);
     console.log('advertising the following service uuid\'s: ' + peripheral.advertisement.serviceUuids);
