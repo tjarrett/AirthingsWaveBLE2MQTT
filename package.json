@@ -8,7 +8,11 @@
   },
   "author": "Tim Jarrett <tim.jarrett@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "source .env; node index.js"
+  },
   "dependencies": {
-    "@abandonware/noble": "^1.9.2-7"
+    "@abandonware/noble": "^1.9.2-7",
+    "dotenv": "^8.2.0"
   }
 }

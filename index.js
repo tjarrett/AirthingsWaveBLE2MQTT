@@ -1,3 +1,6 @@
+require('dotenv').config();
+console.log(process.env);
+
 const noble = require('@abandonware/noble');
 noble.on('stateChange', function(state) {
     if (state === 'poweredOn') {
