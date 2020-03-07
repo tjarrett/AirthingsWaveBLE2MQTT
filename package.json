@@ -1,0 +1,14 @@
+{
+  "name": "AirthingsWaveBLE2MQTT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:tjarrett/AirthingsWaveBLE2MQTT.git",
+    "type": "git"
+  },
+  "author": "Tim Jarrett <tim.jarrett@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-7"
+  }
+}
